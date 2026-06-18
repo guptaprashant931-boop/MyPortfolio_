@@ -1,0 +1,11 @@
+Django
+djangorestframework
+psycopg2-binary
+django-cors-headers
+djangorestframework-simplejwt
+drf-spectacular
+django-filter
+cloudinary
+django-cloudinary-storage
+gunicorn
+whitenoise
