@@ -89,7 +89,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 ALLOWED_HOSTS = [
-    'https://myportfolio-60rx.onrender.com',
+    'myportfolio-60rx.onrender.com',
     'localhost',
     '127.0.0.1'
 ]
