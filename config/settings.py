@@ -83,6 +83,10 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+CORS_ALLOWED_ORIGINS = [
+    "https://your-github-username.github.io",  
+]
+
 ALLOWED_HOSTS = [
     'https://myportfolio-60rx.onrender.com',
     'localhost',
