@@ -13,3 +13,4 @@ django-cloudinary-storage>=0.3.0
 python-decouple
 django-filter
 drf-spectacular
+dj-database-url
