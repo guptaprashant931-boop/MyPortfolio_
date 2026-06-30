@@ -83,6 +83,12 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+ALLOWED_HOSTS = [
+    'https://myportfolio-60rx.onrender.com',
+    'localhost',
+    '127.0.0.1'
+]
+
 ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
