@@ -85,7 +85,7 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://guptaprashant931-boop.github.io/MyPortfolio_/",  
+    "https://guptaprashant931-boop.github.io",  
 ]
 
 ALLOWED_HOSTS = [
