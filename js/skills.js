@@ -3,6 +3,8 @@ document.getElementById(
 "skill-grid"
 );
 
+const BACKEND_URL = "https://myportfolio-60rx.onrender.com";
+
 let skills = [];
 
 async function fetchSkills(){
