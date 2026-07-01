@@ -32,7 +32,7 @@ function renderSkills(data){
 
 container.innerHTML = "";
 
-data.forEach(skills=>{
+data.forEach(skill=>{
 
 container.innerHTML += `
 
