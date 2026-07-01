@@ -13,6 +13,7 @@ from rest_framework.permissions import (
 class SkillListView(generics.ListAPIView):
     queryset = Skill.objects.all()
     serializer_class = SkillSerializer
+    pagination_class = None
 
 
 class ProjectListView(
