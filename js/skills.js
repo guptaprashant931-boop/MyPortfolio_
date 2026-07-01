@@ -11,21 +11,21 @@ async function fetchSkills(){
 
 try{
 
-const response =
-await fetch(
-`${BACKEND_URL}/api/skills/`
-);
+  const response = await fetch(`${BACKEND_URL}/api/skills/`);
 
-const data =
-await response.json();
+  if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  const data = await response.json();
 
-skills = data.results || data;
+  skills = data.results || data;
 
-renderSkills(skills);
+  renderSkills(skills);
 
 }
-catch(error){
-
+  catch(error){
+  console.error("Failed to load skills:", error);
+    container.innerHTML = `<p style="color: #ef4444; text-align: center;">Failed to load skills. Please try again later.</p>`;
 console.log(error);
 
 }}
