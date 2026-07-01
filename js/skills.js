@@ -7,7 +7,7 @@ const BACKEND_URL = "https://myportfolio-60rx.onrender.com";
 
 let skills = [];
 
-async function fetchSkills(){
+async function fetchSkills(`${BACKEND_URL}/api/skills/`){
 
 try{
 
